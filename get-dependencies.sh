@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	cmake	   \
-	fmt 	   \
     libdecor   \
 	sdl2	   \
     timidity++

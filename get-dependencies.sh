@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
 	fltk	   \
 	fmt 	   \
     libdecor   \
+	protobuf   \
 	sdl2	   \
     timidity++
 

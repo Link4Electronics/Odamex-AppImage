@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
 	fltk	   \
 	fmt 	   \
     libdecor   \
+	sdl2	   \
     timidity++
 
 echo "Installing debloated packages..."

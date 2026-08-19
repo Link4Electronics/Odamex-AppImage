@@ -20,8 +20,6 @@ rm -rf /usr/lib/qt/plugins/wayland-graphics-integration-server
 # Deploy dependencies
 quick-sharun /usr/bin/odalaunch /usr/bin/odamex /usr/bin/odasrv
 
-# Additional changes can be done in between here
-
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
 

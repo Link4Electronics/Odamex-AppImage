@@ -10,8 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable/media/icon_odalaunch_512.png
 export DESKTOP=https://raw.githubusercontent.com/odamex/odamex/refs/heads/stable/packaging/linux/net.odamex.Odamex.Launcher.desktop
 export APPNAME=Odamex
-export DEPLOY_QT=1
-export QT_DIR=qt5
+export USE_HOST_DRIVERS_EXPERIMENTAL=1
 
 # on archlinux qt5-wayland also adds the server side plugins
 # remove them so that they do not get deployed
